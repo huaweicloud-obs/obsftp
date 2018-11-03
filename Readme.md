@@ -58,7 +58,7 @@ $ python FTPServerStart.py
 > # 连接到FTP server
 请使用FileZilla客户端去连接FTP server。下载安装后，按如下方式连接即可:
 
-+ 主机: 127.0.0.1:2048 (默认)
++ 主机: 127.0.0.1:10020 (默认)
 - 登录类型： 正常
 + 用户：access_key_id/bucket_name
 + 密码：access_key_secret

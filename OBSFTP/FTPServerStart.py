@@ -1,3 +1,5 @@
+# Copyright (C) 2018 charles    nahra@163.com
+# Use of this source code is governed by MIT license
 # -*- coding: utf-8 -*-
 import os, sys
 
@@ -135,7 +137,7 @@ def VaildPassivePortNum(StartNum,EndNum):
             return True
 
 if __name__ == '__main__':
-    print " now start the ftp proxy server,the default server ip is 127.0.0.1,port is 2048;\n Suggest use filezilla access this server;\n \
+    print " Now start the ftp server,the default server ip is 127.0.0.1,port is 10020;\n Suggest use filezilla access this server;\n \
 access account is username: AcccessKeyID/bucketname,password:SecretyKeyID .\n \
 More selfdefine parameter can get use --help/-h; Terminated this proces can use Ctrl + c"
 

@@ -1,0 +1,14 @@
+2018-11-02 17:52:17,102 INFO    [servers.py:165(_log_start)] >>> starting FTP server on 127.0.0.1:10020, pid=39024 <<<
+2018-11-02 17:52:17,102 INFO    [servers.py:168(_log_start)] concurrency model: multi-thread
+2018-11-02 17:52:17,102 INFO    [servers.py:176(_log_start)] masquerade (NAT) address: 
+2018-11-02 17:52:17,102 INFO    [servers.py:177(_log_start)] passive ports: None
+2018-11-02 17:52:17,102 DEBUG   [servers.py:178(_log_start)] poller: 'pyftpdlib.ioloop.Select'
+2018-11-02 17:52:17,102 DEBUG   [servers.py:179(_log_start)] authorizer: 'FTPAuthCallback.ObsAuthorizer'
+2018-11-02 17:52:17,102 DEBUG   [servers.py:182(_log_start)] handler: 'pyftpdlib.handlers.FTPHandler'
+2018-11-02 17:52:17,102 DEBUG   [servers.py:183(_log_start)] max connections: 512
+2018-11-02 17:52:17,102 DEBUG   [servers.py:185(_log_start)] max connections per ip: unlimited
+2018-11-02 17:52:17,102 DEBUG   [servers.py:186(_log_start)] timeout: 300
+2018-11-02 17:52:17,102 DEBUG   [servers.py:187(_log_start)] banner: 'obs ftpd ready.'
+2018-11-02 17:52:17,102 DEBUG   [servers.py:188(_log_start)] max login attempts: 3
+2018-11-03 13:04:23,614 INFO    [servers.py:455(serve_forever)] >>> shutting down FTP server (0 active workers) <<<
+2018-11-03 13:04:23,614 DEBUG   [log.py:132(debug)] [debug] closing IOLoop (<pyftpdlib.ioloop.Select (fds=1, tasks=1) at 0xa127390>)

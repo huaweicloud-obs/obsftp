@@ -1,3 +1,5 @@
+# Copyright (C) 2018 charles    nahra@163.com
+# Use of this source code is governed by MIT license
 # -*- coding: utf-8 -*-
 from pyftpdlib.filesystems import FilesystemError
 import obsadapter
