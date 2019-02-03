@@ -1,6 +1,8 @@
+#!/usr/bin/python
+# -*- coding:utf-8 -*-
 # Copyright (C) 2018 charles    nahra@163.com
 # Use of this source code is governed by MIT license
-# -*- coding: utf-8 -*-
+
 import os
 import time
 
