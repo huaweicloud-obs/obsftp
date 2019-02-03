@@ -1,6 +1,8 @@
+#!/usr/bin/python
+# -*- coding:utf-8 -*-
 # Copyright (C) 2018 charles    nahra@163.com
 # Use of this source code is governed by MIT license
-# -*- coding: utf-8 -*-
+
 
 max_send_retry_times = 3
 send_data_buff_size = 10 * 1024 * 1024
