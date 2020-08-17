@@ -46,7 +46,7 @@ class BucketLoginInfo():
 
 class ObsAuthorizer(DummyAuthorizer):
 
-    default_endpoint = Constants.transmode + "obs.myhwclouds.com"
+    default_endpoint = Constants.transmode + "obs.myhuaweicloud.com"
     LOCAL_CHECK_OK = 0
     LOCAL_CHECK_FAIL = 1
     LOCAL_CHECK_UNCERTAIN = 2
