@@ -114,7 +114,7 @@ class ObsAuthorizer(DummyAuthorizer):
         
         #  get the bucket Region endpoint
         if res_location.body.location !='' :
-           endpoint =  Constants.transmode +"obs." + res_location.body.location + ".myhwclouds.com"
+           endpoint =  Constants.transmode +"obs." + res_location.body.location + ".myhuaweicloud.com"
            logger.info("the endpoint is %s" % endpoint)
            return endpoint
         else:
