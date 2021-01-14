@@ -20,7 +20,7 @@ OBS FTP工具是一个特殊FTP server, 它接收普通FTP请求后，将对文�
 >> ####     说明
 ***
 >>>
-1. 目前在1.0版本中，考虑到安装部署的简便，OSS FTP工具没有支持TLS加密。由于FTP协议是明文传输的，为了防止您的密码泄漏，建议将FTP server和client运行在同一台机器上，通过127.0.0.1:port的方式来访问。
+1. 目前在1.0版本中，考虑到安装部署的简便，OBS FTP工具没有支持TLS加密。由于FTP协议是明文传输的，为了防止您的密码泄漏，建议将FTP server和client运行在同一台机器上，通过127.0.0.1:port的方式来访问。
 2. 不支持rename和move操作。
 3. 安装包解压后的路径不要含有中文。
 4. FTP server支持的Python版本：Python2.7.x,需要提前在系统安装好，windows需要先下载安装。Linux当前都有自带的python可以直接使用。
@@ -57,8 +57,7 @@ $ python FTPServerStart.py
 
 > # 连接到FTP server
 请使用FileZilla客户端去连接FTP server。下载安装后，按如下方式连接即可:
-
-+ 主机: 127.0.0.1:10020 (默认)
++ 主机: 127.0.0.1:10020 (默认/地址可以是主机的网卡配置地址)
 - 登录类型： 正常
 + 用户：access_key_id/bucket_name
 + 密码：access_key_secret
