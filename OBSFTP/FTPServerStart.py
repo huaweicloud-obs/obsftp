@@ -109,8 +109,8 @@ def main(args, opts):
     if opts.loglevel:
         log_level = opts.loglevel
 
-    if opts.passive_ports_end and passive_ports_start:
-        if VaildPassivePortNum(passive_ports_start,passive_ports_end):
+    if opts.passive_ports_end and opts.passive_ports_start:
+        if VaildPassivePortNum(opts.passive_ports_start,opts.passive_ports_end):
             passive_ports_start = int(opts.passive_ports_start)
             passive_ports_end = int(opts.passive_ports_end)
             passive_ports = range(passive_ports_start, passive_ports_end)
@@ -125,7 +125,7 @@ def VaildPassivePortNum(StartNum,EndNum):
     except ValueError:
         print "invalid FTP passive_ports_start/end, please input a valid port like --passive_ports_end=20000/--passive_ports_end=60000"
         return False
-    if  not isinstance(PassiveStartNum,int) or isinstance(PassiveEndNum,int):
+    if  not isinstance(PassiveStartNum,int) or not isinstance(PassiveEndNum,int):
         print "invalid FTP passive_ports_start/end, please input a valid port like --passive_ports_end=20000/--passive_ports_end=60000"
         return False
     else:
